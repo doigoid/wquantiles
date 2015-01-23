@@ -2,8 +2,7 @@ from __future__ import print_function
 from setuptools import setup, Command
 import os
 
-from weighted import __version__ as weighted_version
-
+__version__ = "0.3"
 
 description = 'Weighted quantiles, including weighted median, based on numpy'
 long_description = description
@@ -28,7 +27,7 @@ class PyTest(Command):
 
 setup(
     name='wquantiles',
-    version=weighted_version,
+    version=__version__,
     url='http://github.com/nudomarinero/wquantiles/',
     license='MIT License',
     author='Jose Sabater',
