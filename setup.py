@@ -2,7 +2,7 @@ from __future__ import print_function
 from setuptools import setup, Command
 import os
 
-__version__ = "0.3"
+__version__ = "0.3.sm0"
 
 description = 'Weighted quantiles, including weighted median, based on numpy'
 long_description = description
